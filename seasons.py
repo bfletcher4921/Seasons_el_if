@@ -1,5 +1,5 @@
-month = input()
-day = int(input())
+month = input("Enter month January - December not using numbers:")
+day = int(input("Enter date as a numeric value:"))
 
 
 if month == "March" and (day >= 20 and day <= 31) :
